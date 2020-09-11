@@ -1,0 +1,17 @@
+Just want to clarify:
+
+it's obviously starts with the modules, after them there is a slight edit to the dircmp module and a few errors i created.
+from there to about halfway it's start with assisting funcs.
+the actual code start with the func init, and please note, if you don't start with running init for your folder, and creating that '.wit' folder,
+you'll never be able to start playing with the code.
+
+therefore it is necessery to start with the init function.
+also, please take a look on how the system chooses what function to start with, i'm sorry i didn't mentiond inside i was too lazy (:P) but here is a quick summery:
+if it has sys.argv[2] as var, it means if you run from CMD you'll need to put the right input for it to work.
+
+add - takes a path to a file or directory
+commit - takes a string
+checkout - takes either a name of a branch you've created or a image folder name
+branch - takes a string
+
+good luck i guess.. !
